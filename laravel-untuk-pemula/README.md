@@ -1,8 +1,8 @@
 # 📘 Riset Naskah & Transkrip Audiobook: Belajar Laravel Untuk Pemula 🎧😴
 
-Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah lengkap** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
+Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah bersih** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
 
-Setiap bagian di bawah sudah dibagi menjadi **3 PART UTAMA (~1.300 KARAKTER PER PART)** sehingga dijamin **BEBAS OVERLIMIT** (di bawah 2.500 karakter).
+Naskah ini **TIDAK MENGGUNAKAN KARAKTER DEKORATIF** (seperti `===` atau simbol hiasan lainnya), hanya menggunakan huruf, angka, tanda baca standar, dan tag arahan suara.
 
 ---
 
@@ -14,18 +14,16 @@ Setiap bagian di bawah sudah dibagi menjadi **3 PART UTAMA (~1.300 KARAKTER PER 
 
 ---
 
-## 🎙️ Transkrip Per Part (Maksimal ~1.300 Karakter / Box)
+## 🎙️ Transkrip Per Part (Bersih Tanpa Simbol Dekoratif, < 1.300 Karakter)
 
 ---
 
-### 🟢 **PART 1: PEMBUKAAN s/d BAB 2** *(~1.350 Karakter)*
+### 🟢 **PART 1: PEMBUKAAN SAMPAI BAB 2** *(~1.250 Karakter)*
 
 ```text
 [long pause] 
   
-==================================================  
-PEMBUKAAN: MELEPAS PENAT & SELAMAT DATANG  
-==================================================  
+PEMBUKAAN: MELEPAS PENAT DAN SELAMAT DATANG  
   
 [natural pace] Selamat malam...   
 [slow pace] Rebahkan badanmu perlahan di atas kasur yang empuk...   
@@ -39,9 +37,7 @@ Hanya ada ketenangan... [positive] dan sebuah petualangan lembut di negeri yang 
 [medium pause] 
   
   
-==================================================  
 BAB 1: MENGENAL SEBUAH OASE BERNAMA LARAVEL  
-==================================================  
   
 Bayangkan sebuah taman yang hijau dan sejuk...   
 Di sinilah Laravel berdiri... Sebuah framework PHP yang dirancang dengan anggun dan elegan untuk para web artisan...  
@@ -55,9 +51,7 @@ Setiap komponennya bekerja seperti simfoni yang harmonis...
 [medium pause] 
   
   
-==================================================  
 BAB 2: INSTALASI YANG HENING DAN DAMAI  
-==================================================  
   
 Kini... bayangkan jemarimu membuka terminal dengan sangat santai...   
 Di layar komputer yang meredup... kita mengetikkan perintah lembut:  
@@ -73,21 +67,19 @@ Semua prasyarat terpenuhi... dan fondasi aplikasimu kini telah berdiri dengan ko
 
 ---
 
-### 🟢 **PART 2: BAB 3 & BAB 4 (DATABASE & CRUD)** *(~1.350 Karakter)*
+### 🟢 **PART 2: BAB 3 DAN BAB 4 (DATABASE DAN CRUD)** *(~1.250 Karakter)*
 
 ```text
 [medium pause] 
   
   
-==================================================  
-BAB 3: PERSIAPAN DATABASE & STRUKTUR TABEL  
-==================================================  
+BAB 3: PERSIAPAN DATABASE DAN STRUKTUR TABEL  
   
 Di tengah keheningan... mari kita membayangkan sebuah telaga jernih...   
 Telaga itu adalah database kita... tempat menyimpan data dengan aman dan rapi...  
   
-Kita membuat tabel bernama "siswa"...   
-Setiap kolom—id, nama, alamat, dan kelas—tertata begitu presisi...   
+Kita membuat tabel bernama siswa...   
+Setiap kolom id, nama, alamat, dan kelas tertata begitu presisi...   
 Di dalam file konfigurasi dot-env... kita menyambungkan aplikasi menuju telaga tersebut...  
 DB_DATABASE=laravel...   
 DB_USERNAME=root...   
@@ -99,9 +91,7 @@ Menata tampilan dengan grid yang simetris dan warna yang lembut di mata...
 [medium pause] 
   
   
-==================================================  
 BAB 4: SIMFONI CRUD (CREATE, READ, UPDATE, DELETE)  
-==================================================  
   
 Siklus kehidupan aplikasi mengalir dalam empat gerakan yang tenang... CRUD...  
   
@@ -124,15 +114,13 @@ Menjadikan ruang kembali bersih dan lapang...
 
 ---
 
-### 🟢 **PART 3: BAB 5 s/d BAB 7 (AUTENTIKASI, VALIDASI & PENUTUP)** *(~1.250 Karakter)*
+### 🟢 **PART 3: BAB 5 SAMPAI BAB 7 (AUTENTIKASI, VALIDASI, DAN PENUTUP)** *(~1.200 Karakter)*
 
 ```text
 [medium pause] 
   
   
-==================================================  
 BAB 5: AUTENTIKASI DAN MENJAGA PINTU HAK AKSES  
-==================================================  
   
 Di malam yang semakin larut... kita membangun benteng perlindungan...   
 Sistem Login dan Register...  
@@ -147,9 +135,7 @@ Setiap orang mendapatkan tempatnya masing-masing... aman dan terlindungi...
 [medium pause] 
   
   
-==================================================  
 BAB 6: VALIDASI YANG BIJAKSANA  
-==================================================  
   
 Laravel tidak pernah membiarkan kekacauan masuk...   
 Melalui Form Request Validation... aplikasi menjaga dirinya sendiri...  
@@ -162,9 +148,7 @@ Semuanya terkendali dengan sangat bijaksana...
 [medium pause] 
   
   
-==================================================  
 BAB 7: PENUTUP DAN SELAMAT TIDUR  
-==================================================  
   
 Kini... semua bab telah tuntas dipelajari...   
 Aplikasi Laravel-mu sudah siap... berjalan dengan anggun dan sempurna...  

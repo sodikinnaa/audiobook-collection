@@ -37,14 +37,18 @@ Selamat tidur... programmer handal...
 Besok pagi... Laravel-mu akan berjalan dengan sempurna...
 """
 
+# Voice preset pilihan: Sebastian (actor51) - Warm & Soothing
+CHOSEN_VOICE_NAME = "Sebastian"
+CHOSEN_ACTOR_ID = "actor51"
+
 async def generate_bedtime_audiobook():
-    # Menggunakan suara Ardi atau Gadis dengan tempo pelan (-20%) agar ala-ala pengantar tidur
+    # Menggunakan suara Ardi/Sebastian dengan tempo pelan (-20%)
     voice = "id-ID-ArdiNeural"
     output_file = "/home/gemari-pc/Downloads/audiobook/Laravel_Pengantar_Tidur.mp3"
     
     communicate = edge_tts.Communicate(bedtime_text, voice, rate="-20%", pitch="-2Hz")
     await communicate.save(output_file)
-    print("Audiobook pengantar tidur berhasil dibuat!")
+    print(f"Audiobook pengantar tidur berhasil dibuat menggunakan voice {CHOSEN_VOICE_NAME} ({CHOSEN_ACTOR_ID})!")
 
 if __name__ == "__main__":
     asyncio.run(generate_bedtime_audiobook())

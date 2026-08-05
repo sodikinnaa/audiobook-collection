@@ -2,7 +2,7 @@
 
 Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah lengkap** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
 
-Setiap bagian di bawah sudah dibagi menjadi **2 PART UTAMA (< 2,200 KARAKTER PER PART)** agar pas dengan batas limit 2,500 karakter generator TTS/Voice Over Anda (tinggal 2x copy-paste!).
+Setiap bagian di bawah sudah dibagi menjadi **3 PART UTAMA (~1.300 KARAKTER PER PART)** sehingga dijamin **BEBAS OVERLIMIT** (di bawah 2.500 karakter).
 
 ---
 
@@ -14,11 +14,11 @@ Setiap bagian di bawah sudah dibagi menjadi **2 PART UTAMA (< 2,200 KARAKTER PER
 
 ---
 
-## 🎙️ Transkrip Per Part (Maksimal < 2,200 Karakter / Box)
+## 🎙️ Transkrip Per Part (Maksimal ~1.300 Karakter / Box)
 
 ---
 
-### 🟢 **PART 1: PEMBUKAAN s/d BAB 3** *(~2,100 Karakter)*
+### 🟢 **PART 1: PEMBUKAAN s/d BAB 2** *(~1.350 Karakter)*
 
 ```text
 [long pause] 
@@ -69,7 +69,13 @@ Semuanya berjalan tanpa hambatan... tanpa kepanikan...
   
 Jika menggunakan Windows atau Linux... kita hanya perlu mengaktifkan ekstensi OpenSSL dengan tenang...   
 Semua prasyarat terpenuhi... dan fondasi aplikasimu kini telah berdiri dengan kokoh...  
-  
+```
+
+---
+
+### 🟢 **PART 2: BAB 3 & BAB 4 (DATABASE & CRUD)** *(~1.350 Karakter)*
+
+```text
 [medium pause] 
   
   
@@ -89,13 +95,7 @@ Koneksi terjalin dengan sempurna... mengalir tanpa henti...
   
 Kita juga menyapa Bootstrap dan jQuery...   
 Menata tampilan dengan grid yang simetris dan warna yang lembut di mata...  
-```
-
----
-
-### 🟢 **PART 2: BAB 4 s/d BAB 7 (PENUTUP)** *(~1,800 Karakter)*
-
-```text
+  
 [medium pause] 
   
   
@@ -120,7 +120,13 @@ Form edit mengambil data lama... menggantinya dengan yang baru... tanpa sedikit 
 Dan keempat... Delete...   
 Hal-hal yang tak lagi dibutuhkan... kita lepas dengan ikhlas melalui Route::get hapus...   
 Menjadikan ruang kembali bersih dan lapang...  
-  
+```
+
+---
+
+### 🟢 **PART 3: BAB 5 s/d BAB 7 (AUTENTIKASI, VALIDASI & PENUTUP)** *(~1.250 Karakter)*
+
+```text
 [medium pause] 
   
   

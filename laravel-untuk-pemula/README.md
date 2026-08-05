@@ -2,31 +2,23 @@
 
 Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah lengkap** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
 
-Setiap kotak naskah di bawah sudah dijamin **DI BAWAH 700 KARAKTER** (termasuk spasi & baris baru) agar aman di-copy-paste ke platform Text-To-Speech (TTS) dengan batas 800 karakter.
+Setiap bagian di bawah sudah dibagi menjadi **2 PART UTAMA (< 2,200 KARAKTER PER PART)** agar pas dengan batas limit 2,500 karakter generator TTS/Voice Over Anda (tinggal 2x copy-paste!).
 
 ---
 
-## 📋 Rekomendasi Voice Over Pilihan (Conversational & Classic)
+## 📋 Rekomendasi Voice Over Pilihan (Knox / Orla / Paz)
 
-Untuk gaya **Pengantar Tidur (Bedtime Story)**, berikut pilihan suara terbaik dari daftar preset Anda:
-
-### 🏆 **PILIHAN UTAMA (Rekomendasi Terbaik):**
-1. 🥇 **Knox** (*Smooth, low pitch*) — **[Rekomendasi Utama Pria]**
-   - Suara pria berintonasi *smooth* dan nada rendah (*low pitch*). Sangat menenangkan dan pas untuk narasi malam.
-2. 🥇 **Orla** (*Gentle, medium pitch*) — **[Rekomendasi Utama Wanita]**
-   - Suara wanita yang lembut (*gentle*) dan tenang. Efektif untuk relaksasi pengantar tidur.
-3. 🥈 **Paz** (*Breathy, low pitch*) — **[Suara Whisper/Ultra Relaxing]**
-   - Karakternya *breathy* (berbisik/halus) dan bernada rendah. Sangat cocok jika ingin efek pengantar tidur super lelap.
-4. 🥉 **Narrator** (*Smooth, medium pitch*) — **[Pilihan Klasik]**
-   - Suara narator klasik yang murni dan halus.
+- **Pilihan Pria Utama**: **`Knox`** (*Smooth, low pitch*) — Nada rendah & halus.
+- **Pilihan Wanita Utama**: **`Orla`** (*Gentle, medium pitch*) — Lembut & tenang.
+- **Pilihan Whisper/ASMR**: **`Paz`** (*Breathy, low pitch*) — Efek bisikan pengantar tidur.
 
 ---
 
-## 🎙️ Transkrip Per Chunk (Maksimal < 700 Karakter / Box)
+## 🎙️ Transkrip Per Part (Maksimal < 2,200 Karakter / Box)
 
 ---
 
-### 🟢 **BAGIAN 1: PEMBUKAAN (PART 1)** *(~380 Karakter)*
+### 🟢 **PART 1: PEMBUKAAN s/d BAB 3** *(~2,100 Karakter)*
 
 ```text
 [long pause] 
@@ -38,26 +30,15 @@ PEMBUKAAN: MELEPAS PENAT & SELAMAT DATANG
 [natural pace] Selamat malam...   
 [slow pace] Rebahkan badanmu perlahan di atas kasur yang empuk...   
 Lemaskan otot-otot bahumu... [thoughtful] kendorkan jemarimu yang lelah setelah seharian mengetik kode...   
-Tarik napas dalam-dalam... [inhale] lalu hembuskan dengan perlahan...
-```
-
----
-
-### 🟢 **BAGIAN 2: PEMBUKAAN (PART 2)** *(~240 Karakter)*
-
-```text
+Tarik napas dalam-dalam... [inhale] lalu hembuskan dengan perlahan...  
+  
 Malam ini... tidak ada error 500... tidak ada terminal yang memerah...   
 Tidak ada tenggat waktu yang mengejar...   
 Hanya ada ketenangan... [positive] dan sebuah petualangan lembut di negeri yang indah bernama Laravel...  
   
-[medium pause]
-```
-
----
-
-### 🟢 **BAGIAN 3: BAB 1 (OASE LARAVEL)** *(~610 Karakter)*
-
-```text
+[medium pause] 
+  
+  
 ==================================================  
 BAB 1: MENGENAL SEBUAH OASE BERNAMA LARAVEL  
 ==================================================  
@@ -69,14 +50,11 @@ Laravel hadir bukan untuk menyulitkanmu...
 Ia diciptakan untuk mempermudah langkahmu... membungkus kerumitan kode PHP native menjadi sintaks yang bersih... indah... dan menenangkan...  
   
 [admiration] Ketika framework lain terasa kaku... Laravel menyambutmu dengan penuh kehangatan...   
-Setiap komponennya bekerja seperti simfoni yang harmonis...
-```
-
----
-
-### 🟢 **BAGIAN 4: BAB 2 (INSTALASI HENING)** *(~680 Karakter)*
-
-```text
+Setiap komponennya bekerja seperti simfoni yang harmonis...  
+  
+[medium pause] 
+  
+  
 ==================================================  
 BAB 2: INSTALASI YANG HENING DAN DAMAI  
 ==================================================  
@@ -90,14 +68,11 @@ Composer mengunduh paket-paket dependensi satu per satu...
 Semuanya berjalan tanpa hambatan... tanpa kepanikan...  
   
 Jika menggunakan Windows atau Linux... kita hanya perlu mengaktifkan ekstensi OpenSSL dengan tenang...   
-Semua prasyarat terpenuhi... dan fondasi aplikasimu kini telah berdiri dengan kokoh...
-```
-
----
-
-### 🟢 **BAGIAN 5: BAB 3 (TELAGA DATABASE)** *(~680 Karakter)*
-
-```text
+Semua prasyarat terpenuhi... dan fondasi aplikasimu kini telah berdiri dengan kokoh...  
+  
+[medium pause] 
+  
+  
 ==================================================  
 BAB 3: PERSIAPAN DATABASE & STRUKTUR TABEL  
 ==================================================  
@@ -113,16 +88,19 @@ DB_USERNAME=root...
 Koneksi terjalin dengan sempurna... mengalir tanpa henti...  
   
 Kita juga menyapa Bootstrap dan jQuery...   
-Menata tampilan dengan grid yang simetris dan warna yang lembut di mata...
+Menata tampilan dengan grid yang simetris dan warna yang lembut di mata...  
 ```
 
 ---
 
-### 🟢 **BAGIAN 6: BAB 4 (SIMFONI CRUD - CREATE & READ)** *(~520 Karakter)*
+### 🟢 **PART 2: BAB 4 s/d BAB 7 (PENUTUP)** *(~1,800 Karakter)*
 
 ```text
+[medium pause] 
+  
+  
 ==================================================  
-BAB 4: SIMFONI CRUD (PART 1: CREATE & READ)  
+BAB 4: SIMFONI CRUD (CREATE, READ, UPDATE, DELETE)  
 ==================================================  
   
 Siklus kehidupan aplikasi mengalir dalam empat gerakan yang tenang... CRUD...  
@@ -133,17 +111,7 @@ Data itu mengalir lembut masuk ke dalam pelukan database...
   
 Kedua... Read...   
 Melalui method DB::table('siswa')->get()...   
-Data dipanggil kembali dan ditampilkan dengan anggun di dalam tabel HTML yang rapi...
-```
-
----
-
-### 🟢 **BAGIAN 7: BAB 4 (SIMFONI CRUD - UPDATE & DELETE)** *(~480 Karakter)*
-
-```text
-==================================================  
-BAB 4: SIMFONI CRUD (PART 2: UPDATE & DELETE)  
-==================================================  
+Data dipanggil kembali dan ditampilkan dengan anggun di dalam tabel HTML yang rapi...  
   
 Ketiga... Update...   
 Jika ada perubahan dalam hidup... kita dapat memperbaruinya dengan tenang...   
@@ -151,14 +119,11 @@ Form edit mengambil data lama... menggantinya dengan yang baru... tanpa sedikit 
   
 Dan keempat... Delete...   
 Hal-hal yang tak lagi dibutuhkan... kita lepas dengan ikhlas melalui Route::get hapus...   
-Menjadikan ruang kembali bersih dan lapang...
-```
-
----
-
-### 🟢 **BAGIAN 8: BAB 5 (AUTENTIKASI & BENTENG HAK AKSES)** *(~670 Karakter)*
-
-```text
+Menjadikan ruang kembali bersih dan lapang...  
+  
+[medium pause] 
+  
+  
 ==================================================  
 BAB 5: AUTENTIKASI DAN MENJAGA PINTU HAK AKSES  
 ==================================================  
@@ -171,14 +136,11 @@ Saat pengguna mengetikkan nama dan katakunci... Auth::attempt memeriksa pintu ge
   
 Jika ia seorang Admin... ia disambut dengan halaman utama untuk mengelola ruang...   
 Jika ia seorang User biasa... ia disambut dengan kehangatan ucapan selamat datang...  
-Setiap orang mendapatkan tempatnya masing-masing... aman dan terlindungi...
-```
-
----
-
-### 🟢 **BAGIAN 9: BAB 6 (VALIDASI BIJAKSANA)** *(~510 Karakter)*
-
-```text
+Setiap orang mendapatkan tempatnya masing-masing... aman dan terlindungi...  
+  
+[medium pause] 
+  
+  
 ==================================================  
 BAB 6: VALIDASI YANG BIJAKSANA  
 ==================================================  
@@ -189,14 +151,11 @@ Melalui Form Request Validation... aplikasi menjaga dirinya sendiri...
 Jika ada kolom yang terlupa diisi... validasi menyampaikan pesannya secara santun...   
 "Harus mengisi nama... Harus mengisi password..."  
 Tanpa amarah... tanpa membuat sistem terhenti...   
-Semuanya terkendali dengan sangat bijaksana...
-```
-
----
-
-### 🟢 **BAGIAN 10: BAB 7 (PENUTUP & SELAMAT TIDUR)** *(~610 Karakter)*
-
-```text
+Semuanya terkendali dengan sangat bijaksana...  
+  
+[medium pause] 
+  
+  
 ==================================================  
 BAB 7: PENUTUP DAN SELAMAT TIDUR  
 ==================================================  

@@ -1,8 +1,8 @@
 # 📘 Riset Naskah & Transkrip Audiobook: Belajar Laravel Untuk Pemula 🎧😴
 
-Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah bersih** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
+Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah micro-chunk** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
 
-Naskah ini **TIDAK MENGGUNAKAN KARAKTER DEKORATIF** (seperti `===` atau simbol hiasan lainnya), hanya menggunakan huruf, angka, tanda baca standar, dan tag arahan suara.
+Setiap kotak naskah di bawah sudah dijamin **SANGAT PENDEK (300 - 400 KARAKTER)** agar proses generate TTS sangat cepat dan **BEBAS RTO / TIMEOUT**.
 
 ---
 
@@ -14,11 +14,11 @@ Naskah ini **TIDAK MENGGUNAKAN KARAKTER DEKORATIF** (seperti `===` atau simbol h
 
 ---
 
-## 🎙️ Transkrip Per Part (Bersih Tanpa Simbol Dekoratif, < 1.300 Karakter)
+## 🎙️ Transkrip Micro-Chunk (Bebas RTO, Maksimal ~400 Karakter / Box)
 
 ---
 
-### 🟢 **PART 1: PEMBUKAAN SAMPAI BAB 2** *(~1.250 Karakter)*
+### 🟢 **BAGIAN 1: PEMBUKAAN (PART 1)** *(~380 Karakter)*
 
 ```text
 [long pause] 
@@ -28,69 +28,103 @@ PEMBUKAAN: MELEPAS PENAT DAN SELAMAT DATANG
 [natural pace] Selamat malam...   
 [slow pace] Rebahkan badanmu perlahan di atas kasur yang empuk...   
 Lemaskan otot-otot bahumu... [thoughtful] kendorkan jemarimu yang lelah setelah seharian mengetik kode...   
-Tarik napas dalam-dalam... [inhale] lalu hembuskan dengan perlahan...  
-  
+Tarik napas dalam-dalam... [inhale] lalu hembuskan dengan perlahan...
+```
+
+---
+
+### 🟢 **BAGIAN 2: PEMBUKAAN (PART 2)** *(~240 Karakter)*
+
+```text
 Malam ini... tidak ada error 500... tidak ada terminal yang memerah...   
 Tidak ada tenggat waktu yang mengejar...   
 Hanya ada ketenangan... [positive] dan sebuah petualangan lembut di negeri yang indah bernama Laravel...  
   
-[medium pause] 
-  
-  
+[medium pause]
+```
+
+---
+
+### 🟢 **BAGIAN 3: BAB 1 (OASE LARAVEL - PART 1)** *(~300 Karakter)*
+
+```text
 BAB 1: MENGENAL SEBUAH OASE BERNAMA LARAVEL  
   
 Bayangkan sebuah taman yang hijau dan sejuk...   
-Di sinilah Laravel berdiri... Sebuah framework PHP yang dirancang dengan anggun dan elegan untuk para web artisan...  
-  
+Di sinilah Laravel berdiri... Sebuah framework PHP yang dirancang dengan anggun dan elegan untuk para web artisan...
+```
+
+---
+
+### 🟢 **BAGIAN 4: BAB 1 (OASE LARAVEL - PART 2)** *(~310 Karakter)*
+
+```text
 Laravel hadir bukan untuk menyulitkanmu...   
 Ia diciptakan untuk mempermudah langkahmu... membungkus kerumitan kode PHP native menjadi sintaks yang bersih... indah... dan menenangkan...  
   
 [admiration] Ketika framework lain terasa kaku... Laravel menyambutmu dengan penuh kehangatan...   
-Setiap komponennya bekerja seperti simfoni yang harmonis...  
-  
-[medium pause] 
-  
-  
+Setiap komponennya bekerja seperti simfoni yang harmonis...
+```
+
+---
+
+### 🟢 **BAGIAN 5: BAB 2 (INSTALASI HENING - PART 1)** *(~350 Karakter)*
+
+```text
 BAB 2: INSTALASI YANG HENING DAN DAMAI  
   
 Kini... bayangkan jemarimu membuka terminal dengan sangat santai...   
 Di layar komputer yang meredup... kita mengetikkan perintah lembut:  
 composer create-project laravel/laravel...  
   
-Lihatlah baris-baris teks mengalir di layar seperti rintik hujan malam yang menenangkan...   
-Composer mengunduh paket-paket dependensi satu per satu...   
-Semuanya berjalan tanpa hambatan... tanpa kepanikan...  
-  
-Jika menggunakan Windows atau Linux... kita hanya perlu mengaktifkan ekstensi OpenSSL dengan tenang...   
-Semua prasyarat terpenuhi... dan fondasi aplikasimu kini telah berdiri dengan kokoh...  
+Lihatlah baris-baris teks mengalir di layar seperti rintik hujan malam yang menenangkan...
 ```
 
 ---
 
-### 🟢 **PART 2: BAB 3 DAN BAB 4 (DATABASE DAN CRUD)** *(~1.250 Karakter)*
+### 🟢 **BAGIAN 6: BAB 2 (INSTALASI HENING - PART 2)** *(~330 Karakter)*
 
 ```text
-[medium pause] 
+Composer mengunduh paket-paket dependensi satu per satu...   
+Semuanya berjalan tanpa hambatan... tanpa kepanikan...  
   
-  
+Jika menggunakan Windows atau Linux... kita hanya perlu mengaktifkan ekstensi OpenSSL dengan tenang...   
+Semua prasyarat terpenuhi... dan fondasi aplikasimu kini telah berdiri dengan kokoh...
+```
+
+---
+
+### 🟢 **BAGIAN 7: BAB 3 (TELAGA DATABASE - PART 1)** *(~380 Karakter)*
+
+```text
 BAB 3: PERSIAPAN DATABASE DAN STRUKTUR TABEL  
   
 Di tengah keheningan... mari kita membayangkan sebuah telaga jernih...   
 Telaga itu adalah database kita... tempat menyimpan data dengan aman dan rapi...  
   
 Kita membuat tabel bernama siswa...   
-Setiap kolom id, nama, alamat, dan kelas tertata begitu presisi...   
+Setiap kolom id, nama, alamat, dan kelas tertata begitu presisi...
+```
+
+---
+
+### 🟢 **BAGIAN 8: BAB 3 (TELAGA DATABASE - PART 2)** *(~310 Karakter)*
+
+```text
 Di dalam file konfigurasi dot-env... kita menyambungkan aplikasi menuju telaga tersebut...  
 DB_DATABASE=laravel...   
 DB_USERNAME=root...   
 Koneksi terjalin dengan sempurna... mengalir tanpa henti...  
   
 Kita juga menyapa Bootstrap dan jQuery...   
-Menata tampilan dengan grid yang simetris dan warna yang lembut di mata...  
-  
-[medium pause] 
-  
-  
+Menata tampilan dengan grid yang simetris dan warna yang lembut di mata...
+```
+
+---
+
+### 🟢 **BAGIAN 9: BAB 4 (SIMFONI CRUD - CREATE & READ)** *(~420 Karakter)*
+
+```text
 BAB 4: SIMFONI CRUD (CREATE, READ, UPDATE, DELETE)  
   
 Siklus kehidupan aplikasi mengalir dalam empat gerakan yang tenang... CRUD...  
@@ -101,25 +135,28 @@ Data itu mengalir lembut masuk ke dalam pelukan database...
   
 Kedua... Read...   
 Melalui method DB::table('siswa')->get()...   
-Data dipanggil kembali dan ditampilkan dengan anggun di dalam tabel HTML yang rapi...  
-  
+Data dipanggil kembali dan ditampilkan dengan anggun di dalam tabel HTML yang rapi...
+```
+
+---
+
+### 🟢 **BAGIAN 10: BAB 4 (SIMFONI CRUD - UPDATE & DELETE)** *(~400 Karakter)*
+
+```text
 Ketiga... Update...   
 Jika ada perubahan dalam hidup... kita dapat memperbaruinya dengan tenang...   
 Form edit mengambil data lama... menggantinya dengan yang baru... tanpa sedikit pun merusak harmoni yang ada...  
   
 Dan keempat... Delete...   
 Hal-hal yang tak lagi dibutuhkan... kita lepas dengan ikhlas melalui Route::get hapus...   
-Menjadikan ruang kembali bersih dan lapang...  
+Menjadikan ruang kembali bersih dan lapang...
 ```
 
 ---
 
-### 🟢 **PART 3: BAB 5 SAMPAI BAB 7 (AUTENTIKASI, VALIDASI, DAN PENUTUP)** *(~1.200 Karakter)*
+### 🟢 **BAGIAN 11: BAB 5 (AUTENTIKASI & LOGIN)** *(~430 Karakter)*
 
 ```text
-[medium pause] 
-  
-  
 BAB 5: AUTENTIKASI DAN MENJAGA PINTU HAK AKSES  
   
 Di malam yang semakin larut... kita membangun benteng perlindungan...   
@@ -130,11 +167,14 @@ Saat pengguna mengetikkan nama dan katakunci... Auth::attempt memeriksa pintu ge
   
 Jika ia seorang Admin... ia disambut dengan halaman utama untuk mengelola ruang...   
 Jika ia seorang User biasa... ia disambut dengan kehangatan ucapan selamat datang...  
-Setiap orang mendapatkan tempatnya masing-masing... aman dan terlindungi...  
-  
-[medium pause] 
-  
-  
+Setiap orang mendapatkan tempatnya masing-masing... aman dan terlindungi...
+```
+
+---
+
+### 🟢 **BAGIAN 12: BAB 6 (VALIDASI BIJAKSANA)** *(~360 Karakter)*
+
+```text
 BAB 6: VALIDASI YANG BIJAKSANA  
   
 Laravel tidak pernah membiarkan kekacauan masuk...   
@@ -143,11 +183,14 @@ Melalui Form Request Validation... aplikasi menjaga dirinya sendiri...
 Jika ada kolom yang terlupa diisi... validasi menyampaikan pesannya secara santun...   
 "Harus mengisi nama... Harus mengisi password..."  
 Tanpa amarah... tanpa membuat sistem terhenti...   
-Semuanya terkendali dengan sangat bijaksana...  
-  
-[medium pause] 
-  
-  
+Semuanya terkendali dengan sangat bijaksana...
+```
+
+---
+
+### 🟢 **BAGIAN 13: BAB 7 (PENUTUP & SELAMAT TIDUR)** *(~380 Karakter)*
+
+```text
 BAB 7: PENUTUP DAN SELAMAT TIDUR  
   
 Kini... semua bab telah tuntas dipelajari...   

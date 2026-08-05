@@ -2,15 +2,15 @@
 
 ![Karakter Utama Avatar - Bedtime Programmer](./cover_main_character.jpg)
 
-Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), **transkrip naskah micro-chunk (< 400 karakter)**, serta **Prompt Video AI Tanpa Suara (Silent Video)** untuk setiap bagian scene menggunakan Avatar Karakter Utama.
+Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), **transkrip naskah micro-chunk (< 400 karakter)**, serta **Prompt Image-to-Video AI (Runway/Kling/Luma/Sora)** untuk setiap bagian scene berdasarkan gambar **Avatar (`cover_main_character.jpg`)** yang di-upload sebagai gambar acuan (*Image Reference*).
 
 ---
 
-## 👤 Profil Avatar Karakter Utama (Konsisten)
+## 👤 Petunjuk Image-to-Video (Konsistensi Avatar)
 
-- **Karakter**: *Young female web artisan / programmer, dark hair in a messy bun, round glasses, wearing an oversized green hoodie.*
-- **Setting / Atmosphere**: *Cozy dark room at night, warm desk lamp, rainy window with soft city lights, cute calico cat sleeping on desk.*
-- **Format Video**: *Silent visual loop (tanpa suara/audio bawaan) agar tidak bentrok dengan MP3 Audiobook.*
+- **Input Gambar (Upload)**: Upload file [`cover_main_character.jpg`](./cover_main_character.jpg) ke platform Image-to-Video (Runway Gen-2/Gen-3, Kling AI, Luma Dream Machine, Pika, dll.).
+- **Instruksi Animation Prompt**: Gunakan prompt animasi per scene di bawah ini untuk menggerakkan gambar avatar yang di-upload.
+- **Format Video**: *Silent visual loop (tanpa suara/audio bawaan) agar pas saat di-merge dengan MP3 Audiobook.*
 
 ---
 
@@ -22,7 +22,7 @@ Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), *
 
 ---
 
-## 🎙️ Transkrip Naskah & Prompt Video AI Silent Per Scene (13 Bagian)
+## 🎙️ Transkrip Naskah & Prompt Image-to-Video AI (13 Bagian)
 
 ---
 
@@ -39,8 +39,8 @@ Lemaskan otot-otot bahumu... [thoughtful] kendorkan jemarimu yang lelah setelah 
 Tarik napas dalam-dalam... [inhale] lalu hembuskan dengan perlahan...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 1):**
-> *Cinematic slow-motion shot of the avatar female programmer in oversized green hoodie sitting at wooden desk in dark room, taking a slow deep breath, holding a steaming mug, rain falling softly on window glass behind her, cozy lofi anime aesthetic, warm lamp glow, 4k 60fps, silent video, no audio, no speech, no background sound.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: slow-motion motion of the girl taking a slow deep breath while holding her steaming mug, rising steam from the cup, subtle rain movement on window glass, gentle parallax camera push-in, cozy lofi atmosphere, silent video, no audio, muted.*
 
 ---
 
@@ -54,8 +54,8 @@ Hanya ada ketenangan... [positive] dan sebuah petualangan lembut di negeri yang 
 [medium pause]
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 2):**
-> *Avatar leaning back in her desk chair with a soft relaxed smile, eyes closing gently in relief, laptop screen glowing soft blue without errors, fairy lights twinkling in background, Studio Ghibli atmosphere, slow camera zoom-in, silent video, no audio, no speech.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: the girl leans back slightly with a peaceful relaxed smile, eyes blinking gently, soft fairy lights twinkling in background, calm laptop screen glow, subtle camera zoom, silent video, no audio, muted.*
 
 ---
 
@@ -68,8 +68,8 @@ Bayangkan sebuah taman yang hijau dan sejuk...
 Di sinilah Laravel berdiri... Sebuah framework PHP yang dirancang dengan anggun dan elegan untuk para web artisan...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 3):**
-> *Close-up of avatar's face with round glasses, reflecting a serene glowing green digital garden inside the lens, dreamy lofi anime style, warm lighting, floating gentle glowing particles, silent video, no audio, no sound.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: zoom-in on the girl's glasses reflecting soft green digital foliage particles floating gracefully, cozy warm desk lamp lighting, slow-motion dreamlike motion, silent video, no audio, muted.*
 
 ---
 
@@ -83,8 +83,8 @@ Ia diciptakan untuk mempermudah langkahmu... membungkus kerumitan kode PHP nativ
 Setiap komponennya bekerja seperti simfoni yang harmonis...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 4):**
-> *Avatar typing gently on mechanical keyboard with a peaceful expression, hands moving smoothly, calico cat sleeping next to keyboard, rain droplets sliding down the night window, warm cozy lighting, silent video, no audio, muted.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: the girl typing gently on the keyboard, subtle finger movement, calico cat breathing peacefully while sleeping on desk, rain falling outside, silent video, no audio, muted.*
 
 ---
 
@@ -100,8 +100,8 @@ composer create-project laravel/laravel...
 Lihatlah baris-baris teks mengalir di layar seperti rintik hujan malam yang menenangkan...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 5):**
-> *Over-the-shoulder shot of avatar opening terminal on laptop, soft green text "composer create-project" typing automatically on dark screen, rain tapping outside, tranquil coding mood, silent video, no audio, muted video.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: focus on the laptop screen showing terminal code scrolling down smoothly, green text glowing gently, avatar watching calmly, rain outside window, silent video, no audio, muted.*
 
 ---
 
@@ -115,8 +115,8 @@ Jika menggunakan Windows atau Linux... kita hanya perlu mengaktifkan ekstensi Op
 Semua prasyarat terpenuhi... dan fondasi aplikasimu kini telah berdiri dengan kokoh...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 6):**
-> *Avatar resting her chin on her hand, watching dependency packages installing smoothly on screen, calm facial expression, soft desk lamp illuminating her face and green hoodie, silent video, no audio, muted.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: the girl resting her chin on her hand, nodding very slowly with a calm expression, soft desk lamp light shimmering on her glasses, silent video, no audio, muted.*
 
 ---
 
@@ -132,8 +132,8 @@ Kita membuat tabel bernama siswa...
 Setiap kolom id, nama, alamat, dan kelas tertata begitu presisi...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 7):**
-> *Avatar gazing dreamily out the rainy window at a glowing magical crystal-clear lake under the starry night sky, fantasy anime transition, peaceful aesthetic, silent video, no audio, muted sound.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: camera slowly panning towards the window where rain reflects a magical glowing lake under starry sky, avatar turning head gracefully to look outside, silent video, no audio, muted.*
 
 ---
 
@@ -149,8 +149,8 @@ Kita juga menyapa Bootstrap dan jQuery...
 Menata tampilan dengan grid yang simetris dan warna yang lembut di mata...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 8):**
-> *Avatar taking a slow sip of her warm drink, laptop screen in front showing clean blue UI grid layout, cozy night ambience, calico cat stretching lazily on desk cushion, silent video, no audio, muted.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: the girl raising her mug to take a calm slow sip, cat tail twitching softly while sleeping, laptop UI screen glowing softly, silent video, no audio, muted.*
 
 ---
 
@@ -170,8 +170,8 @@ Melalui method DB::table('siswa')->get()...
 Data dipanggil kembali dan ditampilkan dengan anggun di dalam tabel HTML yang rapi...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 9):**
-> *Side profile of avatar smiling softly as data flows gracefully across laptop screen, ambient lighting shifting subtly, aesthetic lofi bedroom atmosphere, silent video, no audio, muted sound.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: gentle side camera movement showing code lines moving smoothly on laptop, avatar smiling subtly, steam rising from mug, cozy ambient glow, silent video, no audio, muted.*
 
 ---
 
@@ -187,8 +187,8 @@ Hal-hal yang tak lagi dibutuhkan... kita lepas dengan ikhlas melalui Route::get 
 Menjadikan ruang kembali bersih dan lapang...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 10):**
-> *Avatar clicking mouse softly, deleting old files on screen, glowing light particles fading peacefully into darkness, serene and unburdened expression, silent video, no audio, muted.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: the girl clicking her mouse softly, subtle light particles dissolving gently on screen, serene facial expression, rain drops falling outside, silent video, no audio, muted.*
 
 ---
 
@@ -208,8 +208,8 @@ Jika ia seorang User biasa... ia disambut dengan kehangatan ucapan selamat datan
 Setiap orang mendapatkan tempatnya masing-masing... aman dan terlindungi...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 11):**
-> *Avatar setting up secure login screen on laptop, glowing golden lock icon appearing on screen, feeling safe and protected in her warm cozy bedroom, silent video, no audio, muted.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: golden lock glow reflection on laptop screen, avatar adjusting her hoodie comfortably, warm lamp light flickering gently, cozy night mood, silent video, no audio, muted.*
 
 ---
 
@@ -227,8 +227,8 @@ Tanpa amarah... tanpa membuat sistem terhenti...
 Semuanya terkendali dengan sangat bijaksana...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 12):**
-> *Avatar nodding approvingly at green success validation checkmarks on laptop screen, warm lighting, calico cat opening eyes briefly then sleeping again, silent video, no audio, muted sound.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: avatar nodding approvingly with a gentle smile, green checkmark glow reflecting on screen, sleeping cat snoring softly, silent video, no audio, muted.*
 
 ---
 
@@ -238,7 +238,7 @@ Semuanya terkendali dengan sangat bijaksana...
 BAB 7: PENUTUP DAN SELAMAT TIDUR  
   
 Kini... semua bab telah tuntas dipelajari...   
-Aplikasi Laravel-mu sudah siap... berjalan megingat anggun dan sempurna...  
+Aplikasi Laravel-mu sudah siap... berjalan dengan anggun dan sempurna...  
   
 Layar komputermu kini perlahan meredup...   
 Suara ketukan keyboard telah berganti menjadi helaan napasmu yang teratur...   
@@ -249,5 +249,5 @@ Terima kasih telah belajar...
 [whisper] Selamat tidur, web artisan... Besok hari yang baru telah menunggumu...
 ```
 
-🎬 **Prompt Video AI Silent (Avatar Scene 13):**
-> *Slow fade to sleep: Avatar gently closing laptop screen, turning off desk lamp, pulling up cozy blanket in dark bedroom, rain pattering on window, peaceful sleeping animation, cinematic lofi ending, silent video, no audio, muted.*
+🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
+> *Animate the uploaded character image: avatar closing laptop lid gently, desk lamp dimming down to darkness, girl resting her head on desk next to sleeping cat, peaceful sleep animation, slow fade to black, silent video, no audio, muted.*

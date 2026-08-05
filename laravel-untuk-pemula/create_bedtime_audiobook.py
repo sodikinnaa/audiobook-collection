@@ -47,10 +47,7 @@ async def generate_bedtime_audiobook():
     voice = "id-ID-ArdiNeural"
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    output_dir = os.path.join(script_dir, "..", "audio")
-    os.makedirs(output_dir, exist_ok=True)
-    
-    output_file = os.path.join(output_dir, "Laravel_Pengantar_Tidur.mp3")
+    output_file = os.path.join(script_dir, "Laravel_Pengantar_Tidur.mp3")
     
     communicate = edge_tts.Communicate(bedtime_text, voice, rate="-20%", pitch="-2Hz")
     await communicate.save(output_file)

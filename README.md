@@ -2,10 +2,18 @@
 
 Repositori ini berisi generator audiobook pengantar tidur dari e-book **"Belajar Laravel Untuk Pemula"** karya Dadan Hamdani (2015).
 
-## 📁 Isi Repositori
-- `Belajar Laravel Untuk Pemula.pdf`: E-book panduan dasar Laravel 5.1.
-- `create_bedtime_audiobook.py`: Script Python untuk mengonversi teks PDF/rangkuman menjadi file audio MP3 dengan tempo lambat dan suara lembut (*Microsoft Neural Voice* `id-ID-ArdiNeural`).
-- `Laravel_Pengantar_Tidur.mp3`: Hasil akhir file audiobook pengantar tidur format MP3.
+## 📁 Struktur Folder
+```text
+audiobook/
+├── books/
+│   └── Belajar Laravel Untuk Pemula.pdf   # E-book PDF asli
+├── audio/
+│   └── Laravel_Pengantar_Tidur.mp3        # File Audiobook MP3 pengantar tidur
+├── scripts/
+│   └── create_bedtime_audiobook.py        # Script Python pembuat TTS (Voice: Sebastian/actor51)
+├── .gitignore
+└── README.md
+```
 
 ## 🛠️ Prasyarat & Cara Menjalankan
 
@@ -16,7 +24,7 @@ Repositori ini berisi generator audiobook pengantar tidur dari e-book **"Belajar
 
 2. **Jalankan script:**
    ```bash
-   python3 create_bedtime_audiobook.py
+   python3 scripts/create_bedtime_audiobook.py
    ```
 
 Selamat mendengarkan & selamat tidur tanpa bug! 🌙

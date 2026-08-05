@@ -1,4 +1,5 @@
 import asyncio
+import os
 import edge_tts
 
 bedtime_text = """
@@ -44,11 +45,16 @@ CHOSEN_ACTOR_ID = "actor51"
 async def generate_bedtime_audiobook():
     # Menggunakan suara Ardi/Sebastian dengan tempo pelan (-20%)
     voice = "id-ID-ArdiNeural"
-    output_file = "/home/gemari-pc/Downloads/audiobook/Laravel_Pengantar_Tidur.mp3"
+    
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(script_dir, "..", "audio")
+    os.makedirs(output_dir, exist_ok=True)
+    
+    output_file = os.path.join(output_dir, "Laravel_Pengantar_Tidur.mp3")
     
     communicate = edge_tts.Communicate(bedtime_text, voice, rate="-20%", pitch="-2Hz")
     await communicate.save(output_file)
-    print(f"Audiobook pengantar tidur berhasil dibuat menggunakan voice {CHOSEN_VOICE_NAME} ({CHOSEN_ACTOR_ID})!")
+    print(f"Audiobook pengantar tidur berhasil dibuat di {output_file} menggunakan voice {CHOSEN_VOICE_NAME} ({CHOSEN_ACTOR_ID})!")
 
 if __name__ == "__main__":
     asyncio.run(generate_bedtime_audiobook())

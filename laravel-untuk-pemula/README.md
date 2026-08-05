@@ -1,15 +1,19 @@
 # 📘 Riset Naskah & Transkrip Audiobook: Belajar Laravel Untuk Pemula 🎧😴
 
-![Karakter Utama Avatar - Bedtime Programmer](./cover_main_character.jpg)
+![Karakter Utama Avatar - Character Reference Sheet](./cover_main_character.jpg)
 
-Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), **transkrip naskah micro-chunk (< 400 karakter)**, serta **Prompt Image-to-Video AI (Runway/Kling/Luma/Sora)** untuk setiap bagian scene berdasarkan gambar **Avatar (`cover_main_character.jpg`)** yang di-upload sebagai gambar acuan (*Image Reference*).
+Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), **transkrip naskah micro-chunk (< 400 karakter)**, serta **Prompt Image-to-Video AI (Runway/Kling/Luma/Sora)** untuk setiap bagian scene berdasarkan gambar **Character Reference Sheet Avatar (`cover_main_character.jpg`)** di atas.
 
 ---
 
-## 👤 Petunjuk Image-to-Video (Konsistensi Avatar)
+## 👤 Profil & Panduan Avatar Character Reference Sheet
 
-- **Input Gambar (Upload)**: Upload file [`cover_main_character.jpg`](./cover_main_character.jpg) ke platform Image-to-Video (Runway Gen-2/Gen-3, Kling AI, Luma Dream Machine, Pika, dll.).
-- **Instruksi Animation Prompt**: Gunakan prompt animasi per scene di bawah ini untuk menggerakkan gambar avatar yang di-upload.
+- **Input Gambar Reference (Upload)**: Upload file [`cover_main_character.jpg`](./cover_main_character.jpg) ke platform AI Video (Runway Gen-2/Gen-3, Kling AI, Luma Dream Machine, Pika, Midjourney `--cref`, dll.).
+- **Detail Karakter (Multi-Angle)**:
+  - **Model**: *Female web artisan / programmer, dark hair in a cute top bun, round black glasses.*
+  - **Outfit**: *Cozy oversized dark green hoodie.*
+  - **Props**: *Steaming mug, laptop with blue code editor, mechanical keyboard, sleeping calico cat.*
+  - **Keunggulan**: Gambar di atas menyajikan sudut pandang depan, samping, dan belakang (*over-the-shoulder*) sehingga gerakan animasi AI video akan konsisten 100% antar scene.
 - **Format Video**: *Silent visual loop (tanpa suara/audio bawaan) agar pas saat di-merge dengan MP3 Audiobook.*
 
 ---
@@ -84,7 +88,7 @@ Setiap komponennya bekerja seperti simfoni yang harmonis...
 ```
 
 🎬 **Prompt Image-to-Video (Upload `cover_main_character.jpg`):**
-> *Animate the uploaded character image: the girl typing gently on the keyboard, subtle finger movement, calico cat breathing peacefully while sleeping on desk, rain falling outside, silent video, no audio, muted.*
+> *Animate the uploaded character image: the girl typing gently on the keyboard, subtle finger movement, calico cat breathing peacefully while sleeping on desk, rain droplets sliding down the night window, warm cozy lighting, silent video, no audio, muted.*
 
 ---
 

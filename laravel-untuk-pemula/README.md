@@ -1,5 +1,7 @@
 # 📘 Riset Naskah & Transkrip Audiobook: Belajar Laravel Untuk Pemula 🎧😴
 
+![Karakter Utama - Bedtime Programmer](./cover_main_character.jpg)
+
 Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah micro-chunk** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
 
 Setiap kotak naskah di bawah sudah dijamin **SANGAT PENDEK (300 - 400 KARAKTER)** agar proses generate TTS sangat cepat dan **BEBAS RTO / TIMEOUT**.

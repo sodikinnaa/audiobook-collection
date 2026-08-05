@@ -2,16 +2,23 @@
 
 Dokumen ini berisi riset materi, petunjuk arah suara (*Audio Direction Tags*), serta **transkrip naskah lengkap** e-book *Belajar Laravel Untuk Pemula* karya Dadan Hamdani (2015) yang disesuaikan khusus dengan gaya **Pengantar Tidur (Bedtime Story & Relaxation)**.
 
-setiap kotak naskah di bawah sudah dijamin **DI BAWAH 700 KARAKTER** (termasuk spasi & baris baru) agar aman di-copy-paste ke platform Text-To-Speech (TTS) dengan batas 800 karakter.
+Setiap kotak naskah di bawah sudah dijamin **DI BAWAH 700 KARAKTER** (termasuk spasi & baris baru) agar aman di-copy-paste ke platform Text-To-Speech (TTS) dengan batas 800 karakter.
 
 ---
 
-## 📋 Informasi E-Book & Pengaturan Suara
+## 📋 Rekomendasi Voice Over Pilihan (Conversational & Classic)
 
-- **Judul Asli**: Belajar Laravel Untuk Pemula
-- **Penulis**: Dadan Hamdani (2015)
-- **Karakter Suara Direkomendasikan**: **Sebastian (`actor51`)** — *Warm, Soft, Calm & Soothing Male Voice*
-- **Tempo Baca (Pacing)**: Lambat & Santai (-20% Speed, Pitch -2Hz)
+Untuk gaya **Pengantar Tidur (Bedtime Story)**, berikut pilihan suara terbaik dari daftar preset Anda:
+
+### 🏆 **PILIHAN UTAMA (Rekomendasi Terbaik):**
+1. 🥇 **Knox** (*Smooth, low pitch*) — **[Rekomendasi Utama Pria]**
+   - Suara pria berintonasi *smooth* dan nada rendah (*low pitch*). Sangat menenangkan dan pas untuk narasi malam.
+2. 🥇 **Orla** (*Gentle, medium pitch*) — **[Rekomendasi Utama Wanita]**
+   - Suara wanita yang lembut (*gentle*) dan tenang. Efektif untuk relaksasi pengantar tidur.
+3. 🥈 **Paz** (*Breathy, low pitch*) — **[Suara Whisper/Ultra Relaxing]**
+   - Karakternya *breathy* (berbisik/halus) dan bernada rendah. Sangat cocok jika ingin efek pengantar tidur super lelap.
+4. 🥉 **Narrator** (*Smooth, medium pitch*) — **[Pilihan Klasik]**
+   - Suara narator klasik yang murni dan halus.
 
 ---
 
